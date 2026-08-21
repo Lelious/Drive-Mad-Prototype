@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b628d904b0e8b4d85ab840dc1734d9, type: 3}
+  m_Name: DefaultCar
+  m_EditorClassIdentifier: Assembly-CSharp::CarConfig
+  CarPrefabReference:
+    m_AssetGUID: eee22d6c3ff2c0047963a1bc9545f97e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  _maxSuspentionLength: 4
+  _suspentionMultiplier: 8000
+  _dampSensitivity: 2000
+  _wheelRadius: 1.9
+  _maxAntiCapapultForce: 50000
+  _customGravity: 40
+  _bumpStopMultiplier: 70000
+  _coastDampingMultiplier: 0.3
+  _minWheelLocalY: 1.5
+  _maxWheelLocalY: -1.5
+  _wheelSmoothSpeed: 20
+  _motorForce: 7000
+  _motorKickForce: 45000
+  _maxSpeed: 75
+  _airPitchForce: 10000
+  _airAngularDamping: 2
+  _airSpinSpeed: 1200
+  _wheelAirBrakeSpeed: 800
