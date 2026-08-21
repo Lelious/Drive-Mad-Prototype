@@ -430,7 +430,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 360, y: 640}
   m_ScreenMatchMode: 1
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f221e43b50cfc48b9708a5bdae5100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameUI
-  _endGameScreen: {fileID: 7596320847864293534}
+  _endGameScreenGroup: {fileID: 2911039567629013060}
   _endGameBackground: {fileID: 8734766219244297429}
   _endGameScreenText: {fileID: 2805383440344719458}
 --- !u!1 &6536691783874148881
@@ -612,13 +612,14 @@ GameObject:
   m_Component:
   - component: {fileID: 8488201523762931598}
   - component: {fileID: 640543217591562163}
+  - component: {fileID: 2911039567629013060}
   m_Layer: 5
   m_Name: WinLosePannel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8488201523762931598
 RectTransform:
   m_ObjectHideFlags: 0
@@ -647,6 +648,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7596320847864293534}
   m_CullTransparentMesh: 1
+--- !u!225 &2911039567629013060
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596320847864293534}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &8749562763798839456
 GameObject:
   m_ObjectHideFlags: 0

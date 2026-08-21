@@ -5,7 +5,7 @@ A 2.5D arcade car race with custom physics, built with a focus on WebGL performa
 ** [Play the game on Itch.io (Private Access)](https://lelious.itch.io/drive-mad-prototype?secret=6pFIB3NlelIXMEWsICg1Yuic7g)**
 
 ## Tech Stack
-* **Engine:** Unity 2023+ (WebGL-optimized)
+* **Engine:** Unity 6.3 LTS(6000.3.13f1)
 * **Architecture / DI:** VContainer
 * **Asynchrony:** UniTask & Native Awaitable
 * **Asset Management:** Addressables

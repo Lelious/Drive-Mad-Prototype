@@ -7,7 +7,7 @@ using VContainer;
 
 public class GameUI : MonoBehaviour, IDisposable
 {
-    [SerializeField] private GameObject _endGameScreen;
+    [SerializeField] private CanvasGroup _endGameScreenGroup;
     [SerializeField] private Image _endGameBackground;
     [SerializeField] private TextMeshProUGUI _endGameScreenText;
 
@@ -42,13 +42,13 @@ public class GameUI : MonoBehaviour, IDisposable
 
     private void OnLevelReload(LevelReloadSignal signal)
     {
-        _endGameScreen.SetActive(false);
+        _endGameScreenGroup.alpha = 0;
         _levelCompleted = false;
     }
 
     private void ShowEndGameScreen(Color color, string text)
     {
-        _endGameScreen.SetActive(true);
+        _endGameScreenGroup.alpha = 1;
         _endGameBackground.color = color;
         _endGameScreenText.text = text;
     }
